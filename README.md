@@ -25,3 +25,14 @@ El objetivo de este proyecto es desarrollar un sistema para la gestion de client
     ```shell
     npm install
     ```
+
+4. Activa el Fake-REST-Server
+
+      ```shell
+      npx json-server ./src/db/db.json
+      ```
+5. Inicia el servidor de desarrollo
+
+    ```shell
+    npm run dev
+    ```
